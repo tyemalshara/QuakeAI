@@ -1,0 +1,7 @@
+1- user inputs a storyline
+2- presses the button to submit
+3- calls the elevenlabs function and returns the path to the audio file
+4- calls the Llama2 function and returns the prompt as a string
+5- calles AudioGen function which takes the prompt returned from Llama2 function and returns an audio file with music
+6- calles a function to overlay the audio file from elevenlabs with the one from AudioGen
+7- displays it to the WebAPP of streamlit to be ready to play
